@@ -118,14 +118,14 @@ pip install -r requirements.txt
 jupyter notebook notebook/model_building.ipynb
 
 ## 🔮 Future Scope
-📊 Create an interactive Power BI dashboard
-🌐 Deploy model using Flask or Streamlit for real-time predictions
-📈 Try other models like XGBoost, SVR, Linear Regression
-⛏️ Perform advanced feature engineering
+📊 Create an interactive Power BI dashboard <br>
+🌐 Deploy model using Flask or Streamlit for real-time predictions <br>
+📈 Try other models like XGBoost, SVR, Linear Regression <br>
+⛏️ Perform advanced feature engineering <br>
 
 ## 👨‍💻 Author
-Arnab Bandyopadhyay
-📧 arnab.bandyopadhyay01@gmail.com
+Arnab Bandyopadhyay <br>
+📧 arnab.bandyopadhyay01@gmail.com <br>
 🔗 www.linkedin.com/in/arnab-bandyopadhyay-2a9269220
 
 ## 📄 License
