@@ -85,22 +85,22 @@ Before building the model, we conducted a thorough EDA using **Excel** and **Pyt
 
 ## 🗂️ Project Structure
 
-Medibuddy-ML-Project/
-│
-├── data/
-│ └── Machine_Learning_Dataset.xlsx
-│
-├── notebook/
-│ └── model_building.ipynb
-│
-├── models/
-│ └── best_model.pkl
-│
-├── reports/
-│ └── EDA_Visualizations.xlsx
-│
-├── README.md
-└── requirements.txt
+Medibuddy-ML-Project/ <br>
+│ <br>
+├── data/<br>
+│ └── Machine_Learning_Dataset.xlsx<br>
+│<br>
+├── notebook/<br>
+│ └── model_building.ipynb<br>
+│<br>
+├── models/<br>
+│ └── best_model.pkl<br>
+│<br>
+├── reports/<br>
+│ └── EDA_Visualizations.xlsx<br>
+│<br>
+├── README.md<br>
+└── requirements.txt<br>
 
 ---
 
