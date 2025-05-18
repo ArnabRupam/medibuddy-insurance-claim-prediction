@@ -92,12 +92,14 @@ Medibuddy-ML-Project/ <br>
 │<br>
 ├── notebook/<br>
 │ └── model_building.ipynb<br>
+│ └── predict.ipynb<br>
 │<br>
 ├── models/<br>
 │ └── best_model.pkl<br>
 │<br>
 ├── reports/<br>
-│ └── EDA_Visualizations.xlsx<br>
+│ └── analysis_report.xlsx<br>
+│ └── analysis_report.docx<br>
 │<br>
 ├── README.md<br>
 └── requirements.txt<br>
@@ -107,7 +109,7 @@ Medibuddy-ML-Project/ <br>
 ## ⚙️ How to Run the Project
 
 1. **Clone the Repository**
-git clone https://github.com/yourusername/ML-Project-predicting-health-insurance-charges-v2.git
+git clone https://github.com/yourusername/ML-Project-predicting-health-insurance-charges-v2.git <br>
 cd Medibuddy-ML-Project
 
 2. **Install Dependencies**
