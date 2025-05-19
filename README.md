@@ -69,11 +69,11 @@ Before building the model, we conducted a thorough EDA using **Excel** and **Pyt
 
 ## 💡 Technologies Used
 
-| Category              | Tools / Libraries                       |
+| Category              | Tools / Libraries                        |
 |-----------------------|------------------------------------------|
 | Programming Language  | Python                                   |
 | Data Manipulation     | pandas, numpy                            |
-| Visualization         | seaborn, matplotlib, Excel               |
+| Visualization         | Excel                                    |
 | ML Algorithms         | Random Forest Regressor                  |
 | Model Tuning          | GridSearchCV from scikit-learn           |
 | Preprocessing         | StandardScaler, OneHotEncoder, Pipeline  |
