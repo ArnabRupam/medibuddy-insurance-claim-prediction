@@ -72,10 +72,10 @@ Performed in both **Python** and **Excel** to extract insights:
 A dedicated **Power BI Dashboard** and Excel reports were built to present findings in a visually interactive way.
 
 **Power BI Dashboard Highlights:**
-- Sales by Region
-- Product/Service Performance
-- Customer Segment Analysis
-- Time-based Trends
+- Total Policies, Average Charges, and Average BMI indicators
+- BMI vs Charges Scatter Plot (Smoker vs Non-Smoker comparison)
+- Policy Distribution by Region (Donut Chart)
+-  Smoker Percentage and Obesity Rate KPIs
 
 **Reports Available:**
 - Excel Report: Pivot analysis, charge trends
@@ -138,7 +138,7 @@ pip install -r requirements.txt
 jupyter notebook notebook/model_building.ipynb
 
 ## 🔮 Future Scope
-📊 Create an interactive Power BI dashboard <br>
+📊 Enhance the Power BI dashboard with live connection or APIs <br>
 🌐 Deploy model using Flask or Streamlit for real-time predictions <br>
 📈 Try other models like XGBoost, SVR, Linear Regression <br>
 ⛏️ Perform advanced feature engineering <br>
