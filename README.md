@@ -90,6 +90,10 @@ Medibuddy-ML-Project/ <br>
 ├── data/<br>
 │ └── Machine_Learning_Dataset.xlsx<br>
 │<br>
+├── dashboard/<br>
+│ └── images<br>
+│ └── Health Insurance Analytics Dashboard.pbix<br>
+│<br>
 ├── notebook/<br>
 │ └── model_building.ipynb<br>
 │ └── predict.ipynb<br>
