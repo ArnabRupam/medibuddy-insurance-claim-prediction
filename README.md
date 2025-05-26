@@ -1,20 +1,18 @@
-# 🩺 ML Project: Predicting Health Insurance Charges 
+# 🩺 ML Project: Predicting Health Insurance Charges
 
-The goal of this project is to build a predictive machine learning model that estimates **health insurance charges** based on user demographics and lifestyle features.
-
-In addition to model building, extensive **Exploratory Data Analysis (EDA)** and visual reporting have been done to understand cost-driving factors. The model helps forecast costs, optimize pricing, and guide policy decisions.
+This project builds a machine learning model to predict **health insurance charges** based on individual demographics and health factors. Alongside model development, it includes **data analysis reports** and a **Power BI dashboard** to provide end-to-end insights.
 
 ---
 
 ## 📌 Problem Statement
 
-The healthcare and insurance industry needs a reliable way to **predict medical insurance costs**. Accurate cost prediction helps:
+In the healthcare and insurance sector, predicting individual insurance charges is essential for:
 
-- Insurance companies in premium setting and customer segmentation  
-- Customers understand the factors affecting their premium  
-- To enhance personalization in its service offerings  
+- **Insurance companies** – accurate pricing, risk management, and customer segmentation  
+- **Customers** – understanding premium breakdown and optimizing personal health decisions  
+- **Policy makers** – creating data-driven policies  
 
-We aim to build a machine learning model to predict `charges in INR` using features such as:
+The objective is to predict `charges in INR` using the following features:
 
 - Age  
 - Sex  
@@ -29,41 +27,59 @@ We aim to build a machine learning model to predict `charges in INR` using featu
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-Before building the model, we conducted a thorough EDA using **Excel** and **Python**, which included:
+Performed in both **Python** and **Excel** to extract insights:
 
-- Distribution of charges across age groups and BMI categories  
-- Relationship between smoking habits and costs  
-- Average charges per region and sex  
+- Distribution of charges by age and BMI categories  
+- Impact of smoking on insurance charges  
+- Average charges segmented by sex and region  
+- Pivot tables and charts to summarize key relationships  
+
+---
 
 ## 🧠 Machine Learning Workflow
 
 ### ✅ Step 1: Data Preparation
-- Loaded dataset from `Machine_Learning_Dataset.xlsx`  
-- Dropped `Policy no.` (an identifier)  
-- Defined `charges in INR` as the target variable  
-- Separated numerical and categorical features  
+- Loaded data from `Machine_Learning_Dataset.xlsx`
+- Dropped `Policy no.` as it’s an identifier
+- Defined `charges in INR` as the target
+- Feature separation: numerical and categorical
 
 ### ✅ Step 2: Preprocessing Pipeline
-- Used `StandardScaler` for numerical features  
-- Used `OneHotEncoder` for categorical features  
-- Built a preprocessing pipeline using `ColumnTransformer`  
+- Scaled numeric features using `StandardScaler`
+- Encoded categorical features using `OneHotEncoder`
+- Combined steps using `ColumnTransformer`
 
 ### ✅ Step 3: Model Building
-- Algorithm: **Random Forest Regressor**  
-- Tuned hyperparameters using `GridSearchCV` with 5-fold cross-validation  
-- Pipeline included both preprocessing and model training  
+- Algorithm used: **Random Forest Regressor**
+- Hyperparameter tuning with `GridSearchCV` (5-fold CV)
+- Built end-to-end pipeline for preprocessing + training
 
 ### ✅ Step 4: Model Evaluation
 
-| Metric     | Value       |
-|------------|-------------|
-| MAE        | 2530.88     |
-| RMSE       | 4501.17     |
-| R² Score   | 0.8695      |
+| Metric     | Value   |
+|------------|---------|
+| MAE        | 2530.88 |
+| RMSE       | 4501.17 |
+| R² Score   | 0.8695  |
 
 ### ✅ Step 5: Model Export
-- Saved trained model as a `.pkl` file using `joblib`
-- location: /models/best_model.pkl 
+- Trained model saved as: `models/best_model.pkl`
+
+---
+
+## 📈 Dashboard and Reporting
+
+A dedicated **Power BI Dashboard** and Excel reports were built to present findings in a visually interactive way.
+
+**Power BI Dashboard Highlights:**
+- Sales by Region
+- Product/Service Performance
+- Customer Segment Analysis
+- Time-based Trends
+
+**Reports Available:**
+- Excel Report: Pivot analysis, charge trends
+- Word Report: Written insights & business recommendations
 
 ---
 
@@ -73,12 +89,12 @@ Before building the model, we conducted a thorough EDA using **Excel** and **Pyt
 |-----------------------|------------------------------------------|
 | Programming Language  | Python                                   |
 | Data Manipulation     | pandas, numpy                            |
-| Visualization         | Excel                                    |
+| Visualization         | Excel, Power BI                          |
 | ML Algorithms         | Random Forest Regressor                  |
 | Model Tuning          | GridSearchCV from scikit-learn           |
 | Preprocessing         | StandardScaler, OneHotEncoder, Pipeline  |
 | Model Export          | joblib                                   |
-| Reporting             | Excel Charts and Pivot Tables            |
+| Reporting             | Power BI, Excel Charts & Pivot Tables    |
 | IDEs                  | Jupyter Notebook, VS Code                |
 
 ---
